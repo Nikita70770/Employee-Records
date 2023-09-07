@@ -1,0 +1,15 @@
+.header-inner {
+    padding: 20px;
+    background-color: #abcdef;
+}
+
+.header-title {
+    font-size: 28px;
+    font-weight: 500;
+}
+
+.header-subtitle {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 300;
+}
