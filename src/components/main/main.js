@@ -1,9 +1,9 @@
+import SearchSection from './search-section/search-section';
+
 const Main = () => {
     return (
         <main className="main">
-            <div className="container">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-            </div>
+            <SearchSection />
         </main>
     );
 };
