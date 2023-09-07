@@ -1,8 +1,9 @@
+import Header from '../header/header';
+
 const App = () => {
     return (
         <div className="app">
-            <h1>Employee Records</h1>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+            <Header />
         </div>
     );
 };

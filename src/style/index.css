@@ -1,9 +1,20 @@
 @import url(./reset.css);
 
 html {
-  font-size: 100%;
+    font-size: 100%;
 }
 
 body {
-  background-color: #fff;
+    background-color: #fff;
+}
+
+.container {
+    max-width: 1400px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 30px 0 30px;
+}
+
+.none {
+    display: none !important;
 }
