@@ -55,3 +55,7 @@ select {
     color: inherit;
     background-color: transparent;
 }
+
+input:focus {
+    outline: none;
+}

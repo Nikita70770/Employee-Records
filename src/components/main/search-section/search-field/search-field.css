@@ -1,0 +1,15 @@
+.search-field {
+    display: block;
+    max-width: 35%;
+    width: 100%;
+    padding: 0.375rem 0.75rem;
+    border: 1px solid #bdbdbd;
+    border-radius: 0.25rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    background-clip: padding-box;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
