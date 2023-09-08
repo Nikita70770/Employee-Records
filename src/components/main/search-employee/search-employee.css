@@ -1,13 +1,13 @@
-.search-section {
+.search-employee {
     margin-top: 20px;
 }
 
-.search-section-inner {
+.search-employee-inner {
     background-color: #f0f8ff;
 }
 
 .header-subtitle {
-    text-align: center;
+    padding: 15px 0 0 15px;
     font-size: 20px;
     font-weight: 300;
 }
@@ -15,6 +15,5 @@
 .search-panel {
     display: flex;
     padding: 20px 0 20px 15px;
-    /* height: 35px; */
     column-gap: 20px;
 }

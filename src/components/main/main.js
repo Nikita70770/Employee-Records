@@ -1,9 +1,9 @@
-import SearchSection from './search-section/search-section';
+import SearchEmployee from './search-employee/search-employee';
 
 const Main = () => {
     return (
         <main className="main">
-            <SearchSection />
+            <SearchEmployee />
         </main>
     );
 };
