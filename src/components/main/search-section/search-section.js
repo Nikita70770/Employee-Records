@@ -1,8 +1,8 @@
-// import components
+/* import components */
 import SearchField from './search-field/search-field';
 import Filter from './filter/filter';
 
-// import css files
+/* import styles */
 import './search-section.css';
 
 const SearchSection = () => {
