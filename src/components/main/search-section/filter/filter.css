@@ -1,0 +1,7 @@
+.filter-inner {
+    position: relative;
+}
+
+.filter-inner:hover .filter-drop-down-list {
+    display: block;
+}

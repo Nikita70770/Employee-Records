@@ -1,3 +1,6 @@
+/* import styles */
+import './filter-list.css';
+
 const FilterList = () => {
     return (
         <ul className="filter-drop-down-list">
