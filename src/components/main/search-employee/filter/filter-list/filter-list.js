@@ -5,13 +5,19 @@ const FilterList = () => {
     return (
         <ul className="filter-drop-down-list">
             <li>
-                <button type="button">All employees</button>
+                <button className="btn btn-all-empl" type="button">
+                    All employees
+                </button>
             </li>
             <li>
-                <button type="button">For promotion</button>
+                <button className="btn btn-for-promotion" type="button">
+                    For promotion
+                </button>
             </li>
             <li>
-                <button type="button">Salary is more than 1000$</button>
+                <button className="btn btn-salary-is-more" type="button">
+                    Salary is more than 1000$
+                </button>
             </li>
         </ul>
     );
