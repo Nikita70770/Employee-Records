@@ -1,0 +1,12 @@
+.buttons-group {
+    display: flex;
+    column-gap: 20px;
+}
+
+.up-arrow-elem:hover path {
+    fill: #47a76a;
+}
+
+.delete-elem:hover path:not(:last-child) {
+    fill: #bf2233;
+}
