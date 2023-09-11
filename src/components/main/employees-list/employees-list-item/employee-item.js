@@ -1,16 +1,16 @@
 import './employee-item.css';
 
-const EmployeeItem = () => {
+const EmployeeItem = ({ emplooyee }) => {
     return (
         <tr>
             <td className="empl-data-cell">
-                <span>content1</span>
+                <span>{emplooyee.name}</span>
             </td>
             <td className="empl-data-cell">
-                <span>content2</span>
+                <span>{emplooyee.post}</span>
             </td>
             <td className="empl-data-cell">
-                <span>content3</span>
+                <span>{emplooyee.salary}</span>
             </td>
             <td className="empl-data-cell">
                 <div className="buttons-group">

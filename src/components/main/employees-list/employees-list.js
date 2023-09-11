@@ -5,7 +5,11 @@ import EmployeeItem from './employees-list-item/employee-item';
 /* import styles */
 import './employees-list.css';
 
-const EmployeesList = () => {
+const EmployeesList = ({ data }) => {
+    const elements = data.map(itemData => {
+        return <EmployeeItem emplooyee={itemData} />;
+    });
+
     return (
         <section className="employees-list">
             <div className="container">
@@ -13,11 +17,7 @@ const EmployeesList = () => {
                     <table className="employees-table" cellSpacing="0" cellPadding="0">
                         <tbody>
                             <EmployeeItemTitle />
-                            <EmployeeItem />
-                            <EmployeeItem />
-                            <EmployeeItem />
-                            <EmployeeItem />
-                            <EmployeeItem />
+                            {elements}
                         </tbody>
                     </table>
                 </div>
