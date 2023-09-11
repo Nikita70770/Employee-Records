@@ -1,0 +1,22 @@
+.employees-list {
+    margin-top: 20px;
+}
+
+.employees-list-inner {
+    background-color: #f0f8ff;
+}
+
+.employees-table {
+    width: 100%;
+}
+
+th,
+td {
+    padding: 1rem;
+}
+
+th {
+    text-align: left;
+    font-size: 18px;
+    background-color: #a6bdd7;
+}
