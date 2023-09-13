@@ -1,6 +1,22 @@
-.buttons-group {
+.empl-data-cell.increase {
+    color: #47a76a;
+}
+
+.svg-icons-group {
     display: flex;
     column-gap: 20px;
+}
+
+.btn-promotion {
+    opacity: 0;
+}
+
+.btn-promotion.increase {
+    opacity: 1;
+}
+
+.btn-promotion.increase path {
+    fill: #47a76a;
 }
 
 .delete-elem:hover path:not(:last-child) {
