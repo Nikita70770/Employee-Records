@@ -6,9 +6,7 @@ import EmployeeItem from './employees-list-item/employee-item';
 import './employees-list.css';
 
 const EmployeesList = ({ data }) => {
-    const elements = data.map(itemData => {
-        return <EmployeeItem employee={itemData} />;
-    });
+    const elements = data.map((item, index) => <EmployeeItem key={index.toString()} employee={item} />);
 
     return (
         <section className="employees-list">
