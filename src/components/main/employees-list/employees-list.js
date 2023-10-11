@@ -8,13 +8,25 @@ import EmployeeItem from './employees-list-item/employee-item';
 import './employees-list.css';
 
 class EmployeesList extends Component {
-    constructor(props) {
-        super(props);
-        this.dataEmpl = this.props.data;
+    constructor() {
+        super();
+        this.data = [
+            { id: this.getIdEmpl(), name: 'John C.', post: 'Programmer', salary: 2500, increase: false },
+            { id: this.getIdEmpl(), name: 'Kate W', post: 'Designer', salary: 1250, increase: false },
+            { id: this.getIdEmpl(), name: 'Bob D.', post: 'Director', salary: 8500, increase: false },
+            { id: this.getIdEmpl(), name: 'Tom C.', post: 'Manager', salary: 1190, increase: false },
+            { id: this.getIdEmpl(), name: 'Cindy S.', post: 'Secretary', salary: 1050, increase: false }
+        ];
     }
 
+    getIdEmpl = () => {
+        const min = 0;
+        const max = 10000;
+        return Math.floor(Math.random() * (max - min) + min);
+    };
+
     render() {
-        const elements = this.dataEmpl.map((item, index) => <EmployeeItem key={index.toString()} employee={item} />);
+        const elements = this.data.map(item => <EmployeeItem key={item.id.toString()} employee={item} />);
         return (
             <section className="employees-list">
                 <div className="container">
